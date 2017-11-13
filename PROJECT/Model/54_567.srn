@@ -1,0 +1,1473 @@
+Type: SRN Model
+
+Include:
+#include <stdio.h>
+#include "user.h"
+
+IncludeEnd
+Define:
+
+DefineEnd
+SubModel:
+Name: 567
+Number of places: 13
+Number of immediate trans: 19
+Number of timed trans: 9
+Number of inf trans: 0
+Number of arcs:54
+Token displayed:true
+
+Place:
+Name: P0
+Token: 0
+Fluid: false
+X, Y: 164,244
+Number of connected objects: 3
+Dest: T1
+Arc:arc0
+Dest: t1
+Arc:arc3
+Dest: t0
+Arc:arc2
+vInputArc: [arc1]
+vOutputArc: [arc2, arc3]
+Place label:
+X, Y: 173,276
+Width, Height: 20,20
+Textwidth: 0
+
+Place:
+Name: P1
+Token: 0
+Fluid: false
+X, Y: 444,124
+Number of connected objects: 2
+Dest: t5
+Arc:arc31
+Dest: t2
+Arc:arc30
+vInputArc: [arc29]
+vOutputArc: [arc30, arc31]
+Place label:
+X, Y: 453,156
+Width, Height: 20,20
+Textwidth: 0
+
+Place:
+Name: P2
+Token: 0
+Fluid: false
+X, Y: 404,364
+Number of connected objects: 2
+Dest: t4
+Arc:arc6
+Dest: t3
+Arc:arc5
+vInputArc: [arc4]
+vOutputArc: [arc5, arc6]
+Place label:
+X, Y: 413,396
+Width, Height: 20,20
+Textwidth: 0
+
+Place:
+Name: P3
+Token: 0
+Fluid: false
+X, Y: 684,324
+Number of connected objects: 2
+Dest: t18
+Arc:arc8
+Dest: t7
+Arc:arc9
+vInputArc: [arc7]
+vOutputArc: [arc8, arc9]
+Place label:
+X, Y: 693,356
+Width, Height: 20,20
+Textwidth: 0
+
+Place:
+Name: P4
+Token: 0
+Fluid: false
+X, Y: 644,444
+Number of connected objects: 2
+Dest: t9
+Arc:arc12
+Dest: t8
+Arc:arc11
+vInputArc: [arc10]
+vOutputArc: [arc11, arc12]
+Place label:
+X, Y: 653,476
+Width, Height: 20,20
+Textwidth: 0
+
+Place:
+Name: P6
+Token: 0
+Fluid: false
+X, Y: 764,244
+Number of connected objects: 6
+Dest: T5
+Arc:arc44
+Dest: T4
+Arc:arc39
+Dest: T1
+Arc:arc35
+Dest: t10
+Arc:arc37
+Dest: t7
+Arc:arc52
+Dest: t5
+Arc:arc34
+vInputArc: [arc33, arc42, arc47, arc51]
+vOutputArc: [arc34, arc35, arc37, arc39, arc44, arc52]
+Place label:
+X, Y: 773,276
+Width, Height: 20,20
+Textwidth: 0
+
+Place:
+Name: P5
+Token: 0
+Fluid: false
+X, Y: 764,44
+Number of connected objects: 5
+Dest: T6
+Arc:arc48
+Dest: T3
+Arc:arc41
+Dest: t10
+Arc:arc38
+Dest: t7
+Arc:arc53
+Dest: t5
+Arc:arc32
+vInputArc: [arc36, arc40, arc43]
+vOutputArc: [arc32, arc38, arc41, arc48, arc53]
+Place label:
+X, Y: 775,86
+Width, Height: 20,20
+Textwidth: 0
+
+Place:
+Name: P7
+Token: 0
+Fluid: false
+X, Y: 924,444
+Number of connected objects: 2
+Dest: t12
+Arc:arc24
+Dest: t11
+Arc:arc25
+vInputArc: null
+vOutputArc: [arc24, arc25]
+Place label:
+X, Y: 933,476
+Width, Height: 20,20
+Textwidth: 0
+
+Place:
+Name: P8
+Token: 0
+Fluid: false
+X, Y: 884,564
+Number of connected objects: 2
+Dest: t14
+Arc:arc15
+Dest: t13
+Arc:arc14
+vInputArc: [arc13]
+vOutputArc: [arc14, arc15]
+Place label:
+X, Y: 893,596
+Width, Height: 20,20
+Textwidth: 0
+
+Place:
+Name: P9
+Token: 0
+Fluid: false
+X, Y: 1164,404
+Number of connected objects: 2
+Dest: t15
+Arc:arc27
+Dest: t10
+Arc:arc28
+vInputArc: [arc26]
+vOutputArc: [arc27, arc28]
+Place label:
+X, Y: 1173,436
+Width, Height: 20,20
+Textwidth: 0
+
+Place:
+Name: P10
+Token: 0
+Fluid: false
+X, Y: 1164,484
+Number of connected objects: 2
+Dest: t17
+Arc:arc21
+Dest: t16
+Arc:arc22
+vInputArc: [arc23]
+vOutputArc: [arc21, arc22]
+Place label:
+X, Y: 1170,516
+Width, Height: 27,20
+Textwidth: 0
+
+Place:
+Name: P11
+Token: 0
+Fluid: false
+X, Y: 1044,564
+Number of connected objects: 3
+Dest: T5
+Arc:arc45
+Dest: t17
+Arc:arc20
+Dest: t13
+Arc:arc16
+vInputArc: [arc19, arc49]
+vOutputArc: [arc16, arc20, arc45]
+Place label:
+X, Y: 1050,596
+Width, Height: 27,20
+Textwidth: 0
+
+Place:
+Name: P12
+Token: 0
+Fluid: false
+X, Y: 1044,684
+Number of connected objects: 2
+Dest: T6
+Arc:arc50
+Dest: T2
+Arc:arc18
+vInputArc: [arc17, arc46]
+vOutputArc: [arc18, arc50]
+Place label:
+X, Y: 1050,716
+Width, Height: 27,20
+Textwidth: 0
+
+Immediate:
+Name: t0
+Width: 5
+Height: 32
+X, Y: 298,124
+Guard: null
+Probability: null
+Choice Input: Constant value
+Number of connected objects: 1
+Dest: P1
+Arc:arc29
+vInputArc: [arc2]
+vOutputArc: [arc29]
+Type Transition: Immediate
+Place Dependent: null
+Value Transition: 0.5
+Transition label:
+X, Y: 294,156
+Width, Height: 16,20
+Textwidth: 0
+
+Immediate:
+Name: t1
+Width: 5
+Height: 32
+X, Y: 298,364
+Guard: null
+Probability: null
+Choice Input: Constant value
+Number of connected objects: 1
+Dest: P2
+Arc:arc4
+vInputArc: [arc3]
+vOutputArc: [arc4]
+Type Transition: Immediate
+Place Dependent: null
+Value Transition: 0.5
+Transition label:
+X, Y: 294,396
+Width, Height: 16,20
+Textwidth: 0
+
+Immediate:
+Name: t2
+Width: 32
+Height: 5
+X, Y: 444,58
+Guard: null
+Probability: null
+Choice Input: Constant value
+Number of connected objects: 0
+vInputArc: [arc30]
+vOutputArc: null
+Type Transition: Immediate
+Place Dependent: null
+Value Transition: 0.5
+Transition label:
+X, Y: 454,76
+Width, Height: 16,20
+Textwidth: 0
+
+Immediate:
+Name: t3
+Width: 5
+Height: 32
+X, Y: 538,324
+Guard: null
+Probability: null
+Choice Input: Constant value
+Number of connected objects: 1
+Dest: P3
+Arc:arc7
+vInputArc: [arc5]
+vOutputArc: [arc7]
+Type Transition: Immediate
+Place Dependent: null
+Value Transition: 0.5
+Transition label:
+X, Y: 534,356
+Width, Height: 16,20
+Textwidth: 0
+
+Immediate:
+Name: t4
+Width: 5
+Height: 32
+X, Y: 538,444
+Guard: null
+Probability: null
+Choice Input: Constant value
+Number of connected objects: 1
+Dest: P4
+Arc:arc10
+vInputArc: [arc6]
+vOutputArc: [arc10]
+Type Transition: Immediate
+Place Dependent: null
+Value Transition: 0.5
+Transition label:
+X, Y: 534,476
+Width, Height: 16,20
+Textwidth: 0
+
+Immediate:
+Name: t5
+Width: 5
+Height: 32
+X, Y: 618,124
+Guard: null
+Probability: null
+Choice Input: Constant value
+Number of connected objects: 1
+Dest: P6
+Arc:arc33
+vInputArc: [arc31, arc32, arc34]
+vOutputArc: [arc33]
+Type Transition: Immediate
+Place Dependent: null
+Value Transition: 0.5
+Transition label:
+X, Y: 614,156
+Width, Height: 16,20
+Textwidth: 0
+
+Immediate:
+Name: t7
+Width: 5
+Height: 32
+X, Y: 858,324
+Guard: null
+Probability: null
+Choice Input: Constant value
+Number of connected objects: 1
+Dest: P6
+Arc:arc51
+vInputArc: [arc9, arc52, arc53]
+vOutputArc: [arc51]
+Type Transition: Immediate
+Place Dependent: null
+Value Transition: 0.5
+Transition label:
+X, Y: 854,356
+Width, Height: 16,20
+Textwidth: 0
+
+Immediate:
+Name: t8
+Width: 5
+Height: 32
+X, Y: 818,444
+Guard: null
+Probability: null
+Choice Input: Constant value
+Number of connected objects: 0
+vInputArc: [arc11]
+vOutputArc: null
+Type Transition: Immediate
+Place Dependent: null
+Value Transition: 0.5
+Transition label:
+X, Y: 814,476
+Width, Height: 16,20
+Textwidth: 0
+
+Immediate:
+Name: t9
+Width: 5
+Height: 32
+X, Y: 818,564
+Guard: null
+Probability: null
+Choice Input: Constant value
+Number of connected objects: 1
+Dest: P8
+Arc:arc13
+vInputArc: [arc12]
+vOutputArc: [arc13]
+Type Transition: Immediate
+Place Dependent: null
+Value Transition: 0.5
+Transition label:
+X, Y: 814,596
+Width, Height: 16,20
+Textwidth: 0
+
+Immediate:
+Name: t10
+Width: 5
+Height: 32
+X, Y: 938,204
+Guard: null
+Probability: null
+Choice Input: Constant value
+Number of connected objects: 0
+vInputArc: [arc28, arc37, arc38]
+vOutputArc: null
+Type Transition: Immediate
+Place Dependent: null
+Value Transition: 0.5
+Transition label:
+X, Y: 931,236
+Width, Height: 23,20
+Textwidth: 0
+
+Immediate:
+Name: t11
+Width: 5
+Height: 32
+X, Y: 1058,404
+Guard: null
+Probability: null
+Choice Input: Constant value
+Number of connected objects: 1
+Dest: P9
+Arc:arc26
+vInputArc: [arc25]
+vOutputArc: [arc26]
+Type Transition: Immediate
+Place Dependent: null
+Value Transition: 0.5
+Transition label:
+X, Y: 1051,430
+Width, Height: 23,20
+Textwidth: 0
+
+Immediate:
+Name: t12
+Width: 5
+Height: 32
+X, Y: 1058,484
+Guard: null
+Probability: null
+Choice Input: Constant value
+Number of connected objects: 1
+Dest: P10
+Arc:arc23
+vInputArc: [arc24]
+vOutputArc: [arc23]
+Type Transition: Immediate
+Place Dependent: null
+Value Transition: 0.5
+Transition label:
+X, Y: 1051,516
+Width, Height: 23,20
+Textwidth: 0
+
+Immediate:
+Name: t13
+Width: 5
+Height: 32
+X, Y: 938,564
+Guard: null
+Probability: null
+Choice Input: Constant value
+Number of connected objects: 1
+Dest: P12
+Arc:arc17
+vInputArc: [arc14, arc16]
+vOutputArc: [arc17]
+Type Transition: Immediate
+Place Dependent: null
+Value Transition: 0.5
+Transition label:
+X, Y: 945,596
+Width, Height: 23,20
+Textwidth: 0
+
+Immediate:
+Name: t14
+Width: 5
+Height: 32
+X, Y: 898,684
+Guard: null
+Probability: null
+Choice Input: Constant value
+Number of connected objects: 0
+vInputArc: [arc15]
+vOutputArc: null
+Type Transition: Immediate
+Place Dependent: null
+Value Transition: 0.5
+Transition label:
+X, Y: 891,716
+Width, Height: 23,20
+Textwidth: 0
+
+Immediate:
+Name: t15
+Width: 5
+Height: 32
+X, Y: 1258,404
+Guard: null
+Probability: null
+Choice Input: Constant value
+Number of connected objects: 0
+vInputArc: [arc27]
+vOutputArc: null
+Type Transition: Immediate
+Place Dependent: null
+Value Transition: 0.5
+Transition label:
+X, Y: 1251,436
+Width, Height: 23,20
+Textwidth: 0
+
+Immediate:
+Name: t16
+Width: 5
+Height: 32
+X, Y: 1298,444
+Guard: null
+Probability: null
+Choice Input: Constant value
+Number of connected objects: 0
+vInputArc: [arc22]
+vOutputArc: null
+Type Transition: Immediate
+Place Dependent: null
+Value Transition: 0.5
+Transition label:
+X, Y: 1291,476
+Width, Height: 23,20
+Textwidth: 0
+
+Immediate:
+Name: t17
+Width: 5
+Height: 32
+X, Y: 1298,524
+Guard: null
+Probability: null
+Choice Input: Constant value
+Number of connected objects: 0
+vInputArc: [arc20, arc21]
+vOutputArc: null
+Type Transition: Immediate
+Place Dependent: null
+Value Transition: 0.5
+Transition label:
+X, Y: 1291,556
+Width, Height: 23,20
+Textwidth: 0
+
+Immediate:
+Name: t18
+Width: 32
+Height: 5
+X, Y: 684,298
+Guard: null
+Probability: null
+Choice Input: Constant value
+Number of connected objects: 0
+vInputArc: [arc8]
+vOutputArc: null
+Type Transition: Immediate
+Place Dependent: null
+Value Transition: 0.5
+Transition label:
+X, Y: 696,302
+Width, Height: 23,20
+Textwidth: 0
+
+Timed:
+Name: T0
+Width: 14
+Height: 32
+X, Y: 53,244
+Number of connected objects: 1
+Dest: P0
+Arc:arc1
+vInputArc: null
+vOutputArc: [arc1]
+Type Transition: Timed
+Place Dependent: null
+Value Transition: 0.25
+Value1 Transition: null
+Value2 Transition: null
+Value3 Transition: null
+Transition label:
+X, Y: 51,276
+Width, Height: 21,20
+Textwidth: 0
+Guard: null
+Policy: Preemptive repeat different
+Affected: Preemptive repeat different
+Priority: null
+Choice Input: Constant
+Distribution: Exponential
+
+Timed:
+Name: T4
+Width: 14
+Height: 32
+X, Y: 893,4
+Number of connected objects: 1
+Dest: P5
+Arc:arc40
+vInputArc: [arc39]
+vOutputArc: [arc40]
+Type Transition: Timed
+Place Dependent: null
+Value Transition: 0.25
+Value1 Transition: null
+Value2 Transition: null
+Value3 Transition: null
+Transition label:
+X, Y: 891,36
+Width, Height: 21,20
+Textwidth: 0
+Guard: null
+Policy: Preemptive repeat different
+Affected: Preemptive repeat different
+Priority: null
+Choice Input: Constant
+Distribution: Exponential
+
+Timed:
+Name: T1
+Width: 14
+Height: 32
+X, Y: 893,124
+Number of connected objects: 1
+Dest: P5
+Arc:arc36
+vInputArc: [arc35]
+vOutputArc: [arc36]
+Type Transition: Timed
+Place Dependent: null
+Value Transition: 0.25
+Value1 Transition: null
+Value2 Transition: null
+Value3 Transition: null
+Transition label:
+X, Y: 891,156
+Width, Height: 21,20
+Textwidth: 0
+Guard: null
+Policy: Preemptive repeat different
+Affected: Preemptive repeat different
+Priority: null
+Choice Input: Constant
+Distribution: Exponential
+
+Timed:
+Name: T3
+Width: 14
+Height: 32
+X, Y: 573,4
+Number of connected objects: 1
+Dest: P6
+Arc:arc42
+vInputArc: [arc41]
+vOutputArc: [arc42]
+Type Transition: Timed
+Place Dependent: null
+Value Transition: 0.25
+Value1 Transition: null
+Value2 Transition: null
+Value3 Transition: null
+Transition label:
+X, Y: 571,36
+Width, Height: 21,20
+Textwidth: 0
+Guard: null
+Policy: Preemptive repeat different
+Affected: Preemptive repeat different
+Priority: null
+Choice Input: Constant
+Distribution: Exponential
+
+Timed:
+Name: T5
+Width: 14
+Height: 32
+X, Y: 1173,44
+Number of connected objects: 2
+Dest: P12
+Arc:arc46
+Dest: P5
+Arc:arc43
+vInputArc: [arc44, arc45]
+vOutputArc: [arc43, arc46]
+Type Transition: Timed
+Place Dependent: null
+Value Transition: 0.25
+Value1 Transition: null
+Value2 Transition: null
+Value3 Transition: null
+Transition label:
+X, Y: 1171,76
+Width, Height: 21,20
+Textwidth: 0
+Guard: null
+Policy: Preemptive repeat different
+Affected: Preemptive repeat different
+Priority: null
+Choice Input: Constant
+Distribution: Exponential
+
+Timed:
+Name: T6
+Width: 14
+Height: 32
+X, Y: 1373,164
+Number of connected objects: 2
+Dest: P11
+Arc:arc49
+Dest: P6
+Arc:arc47
+vInputArc: [arc48, arc50]
+vOutputArc: [arc47, arc49]
+Type Transition: Timed
+Place Dependent: null
+Value Transition: 0.25
+Value1 Transition: null
+Value2 Transition: null
+Value3 Transition: null
+Transition label:
+X, Y: 1371,196
+Width, Height: 21,20
+Textwidth: 0
+Guard: null
+Policy: Preemptive repeat different
+Affected: Preemptive repeat different
+Priority: null
+Choice Input: Constant
+Distribution: Exponential
+
+Timed:
+Name: T2
+Width: 14
+Height: 32
+X, Y: 1173,644
+Number of connected objects: 1
+Dest: P11
+Arc:arc19
+vInputArc: [arc18]
+vOutputArc: [arc19]
+Type Transition: Timed
+Place Dependent: null
+Value Transition: 0.25
+Value1 Transition: null
+Value2 Transition: null
+Value3 Transition: null
+Transition label:
+X, Y: 1171,676
+Width, Height: 21,20
+Textwidth: 0
+Guard: null
+Policy: Preemptive repeat different
+Affected: Preemptive repeat different
+Priority: null
+Choice Input: Constant
+Distribution: Exponential
+
+Arc:
+Name: arc1
+X1, Y1, X2, Y2: 67,254,164,256
+Type: Regular
+Multiplicity: 1
+Src: T0
+Dest: P0
+ArcPoints: [java.awt.Point[x=67,y=254], java.awt.Point[x=164,y=256]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc2
+X1, Y1, X2, Y2: 188,246,298,136
+Type: Regular
+Multiplicity: 1
+Src: P0
+Dest: t0
+ArcPoints: [java.awt.Point[x=188,y=246], java.awt.Point[x=298,y=136]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc3
+X1, Y1, X2, Y2: 193,268,298,373
+Type: Regular
+Multiplicity: 1
+Src: P0
+Dest: t1
+ArcPoints: [java.awt.Point[x=193,y=268], java.awt.Point[x=298,y=373]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc4
+X1, Y1, X2, Y2: 303,375,404,376
+Type: Regular
+Multiplicity: 1
+Src: t1
+Dest: P2
+ArcPoints: [java.awt.Point[x=303,y=375], java.awt.Point[x=404,y=376]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc5
+X1, Y1, X2, Y2: 433,371,538,337
+Type: Regular
+Multiplicity: 1
+Src: P2
+Dest: t3
+ArcPoints: [java.awt.Point[x=433,y=371], java.awt.Point[x=538,y=337]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc6
+X1, Y1, X2, Y2: 434,386,538,454
+Type: Regular
+Multiplicity: 1
+Src: P2
+Dest: t4
+ArcPoints: [java.awt.Point[x=434,y=386], java.awt.Point[x=538,y=454]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc7
+X1, Y1, X2, Y2: 543,336,684,336
+Type: Regular
+Multiplicity: 1
+Src: t3
+Dest: P3
+ArcPoints: [java.awt.Point[x=543,y=336], java.awt.Point[x=684,y=336]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc8
+X1, Y1, X2, Y2: 691,326,690,303
+Type: Regular
+Multiplicity: 1
+Src: P3
+Dest: t18
+ArcPoints: [java.awt.Point[x=691,y=326], java.awt.Point[x=690,y=303]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc9
+X1, Y1, X2, Y2: 715,336,858,335
+Type: Regular
+Multiplicity: 1
+Src: P3
+Dest: t7
+ArcPoints: [java.awt.Point[x=715,y=336], java.awt.Point[x=858,y=335]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc10
+X1, Y1, X2, Y2: 543,455,644,456
+Type: Regular
+Multiplicity: 1
+Src: t4
+Dest: P4
+ArcPoints: [java.awt.Point[x=543,y=455], java.awt.Point[x=644,y=456]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc11
+X1, Y1, X2, Y2: 675,456,818,455
+Type: Regular
+Multiplicity: 1
+Src: P4
+Dest: t8
+ArcPoints: [java.awt.Point[x=675,y=456], java.awt.Point[x=818,y=455]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc12
+X1, Y1, X2, Y2: 674,466,818,574
+Type: Regular
+Multiplicity: 1
+Src: P4
+Dest: t9
+ArcPoints: [java.awt.Point[x=674,y=466], java.awt.Point[x=818,y=574]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc13
+X1, Y1, X2, Y2: 823,574,884,575
+Type: Regular
+Multiplicity: 1
+Src: t9
+Dest: P8
+ArcPoints: [java.awt.Point[x=823,y=574], java.awt.Point[x=884,y=575]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc14
+X1, Y1, X2, Y2: 914,572,938,574
+Type: Regular
+Multiplicity: 1
+Src: P8
+Dest: t13
+ArcPoints: [java.awt.Point[x=914,y=572], java.awt.Point[x=938,y=574]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc15
+X1, Y1, X2, Y2: 902,595,900,684
+Type: Regular
+Multiplicity: 1
+Src: P8
+Dest: t14
+ArcPoints: [java.awt.Point[x=902,y=595], java.awt.Point[x=900,y=684]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc16
+X1, Y1, X2, Y2: 1044,582,943,582
+Type: Regular
+Multiplicity: 1
+Src: P11
+Dest: t13
+ArcPoints: [java.awt.Point[x=1044,y=582], java.awt.Point[x=943,y=582]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc17
+X1, Y1, X2, Y2: 943,578,1051,686
+Type: Regular
+Multiplicity: 1
+Src: t13
+Dest: P12
+ArcPoints: [java.awt.Point[x=943,y=578], java.awt.Point[x=1051,y=686]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc18
+X1, Y1, X2, Y2: 1073,691,1173,658
+Type: Regular
+Multiplicity: 1
+Src: P12
+Dest: T2
+ArcPoints: [java.awt.Point[x=1073,y=691], java.awt.Point[x=1173,y=658]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc19
+X1, Y1, X2, Y2: 1173,658,1071,591
+Type: Regular
+Multiplicity: 1
+Src: T2
+Dest: P11
+ArcPoints: [java.awt.Point[x=1173,y=658], java.awt.Point[x=1071,y=591]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc20
+X1, Y1, X2, Y2: 1074,574,1298,536
+Type: Regular
+Multiplicity: 1
+Src: P11
+Dest: t17
+ArcPoints: [java.awt.Point[x=1074,y=574], java.awt.Point[x=1298,y=536]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc21
+X1, Y1, X2, Y2: 1195,501,1298,535
+Type: Regular
+Multiplicity: 1
+Src: P10
+Dest: t17
+ArcPoints: [java.awt.Point[x=1195,y=501], java.awt.Point[x=1298,y=535]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc22
+X1, Y1, X2, Y2: 1193,491,1298,457
+Type: Regular
+Multiplicity: 1
+Src: P10
+Dest: t16
+ArcPoints: [java.awt.Point[x=1193,y=491], java.awt.Point[x=1298,y=457]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc23
+X1, Y1, X2, Y2: 1063,495,1164,496
+Type: Regular
+Multiplicity: 1
+Src: t12
+Dest: P10
+ArcPoints: [java.awt.Point[x=1063,y=495], java.awt.Point[x=1164,y=496]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc24
+X1, Y1, X2, Y2: 955,461,1058,495
+Type: Regular
+Multiplicity: 1
+Src: P7
+Dest: t12
+ArcPoints: [java.awt.Point[x=955,y=461], java.awt.Point[x=1058,y=495]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc25
+X1, Y1, X2, Y2: 953,451,1058,417
+Type: Regular
+Multiplicity: 1
+Src: P7
+Dest: t11
+ArcPoints: [java.awt.Point[x=953,y=451], java.awt.Point[x=1058,y=417]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc26
+X1, Y1, X2, Y2: 1063,415,1164,416
+Type: Regular
+Multiplicity: 1
+Src: t11
+Dest: P9
+ArcPoints: [java.awt.Point[x=1063,y=415], java.awt.Point[x=1164,y=416]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc27
+X1, Y1, X2, Y2: 1195,415,1258,415
+Type: Regular
+Multiplicity: 1
+Src: P9
+Dest: t15
+ArcPoints: [java.awt.Point[x=1195,y=415], java.awt.Point[x=1258,y=415]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc28
+X1, Y1, X2, Y2: 1166,412,943,226
+Type: Regular
+Multiplicity: 1
+Src: P9
+Dest: t10
+ArcPoints: [java.awt.Point[x=1166,y=412], java.awt.Point[x=943,y=226]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc29
+X1, Y1, X2, Y2: 303,136,444,136
+Type: Regular
+Multiplicity: 1
+Src: t0
+Dest: P1
+ArcPoints: [java.awt.Point[x=303,y=136], java.awt.Point[x=444,y=136]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc30
+X1, Y1, X2, Y2: 455,124,454,63
+Type: Regular
+Multiplicity: 1
+Src: P1
+Dest: t2
+ArcPoints: [java.awt.Point[x=455,y=124], java.awt.Point[x=454,y=63]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc31
+X1, Y1, X2, Y2: 475,136,618,135
+Type: Regular
+Multiplicity: 1
+Src: P1
+Dest: t5
+ArcPoints: [java.awt.Point[x=475,y=136], java.awt.Point[x=618,y=135]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc32
+X1, Y1, X2, Y2: 767,69,623,140
+Type: Regular
+Multiplicity: 1
+Src: P5
+Dest: t5
+ArcPoints: [java.awt.Point[x=767,y=69], java.awt.Point[x=623,y=140]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc33
+X1, Y1, X2, Y2: 623,137,769,248
+Type: Regular
+Multiplicity: 1
+Src: t5
+Dest: P6
+ArcPoints: [java.awt.Point[x=623,y=137], java.awt.Point[x=769,y=248]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc34
+X1, Y1, X2, Y2: 765,253,623,145
+Type: Inhibitor
+Multiplicity: 1
+Src: P6
+Dest: t5
+ArcPoints: [java.awt.Point[x=765,y=253], java.awt.Point[x=623,y=145]]
+Fluid Arc: false
+Choice Input: Constant
+Circle1, Circle2: 626,147
+
+Arc:
+Name: arc35
+X1, Y1, X2, Y2: 788,246,893,140
+Type: Regular
+Multiplicity: 1
+Src: P6
+Dest: T1
+ArcPoints: [java.awt.Point[x=788,y=246], java.awt.Point[x=893,y=140]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc36
+X1, Y1, X2, Y2: 893,138,791,71
+Type: Regular
+Multiplicity: 1
+Src: T1
+Dest: P5
+ArcPoints: [java.awt.Point[x=893,y=138], java.awt.Point[x=791,y=71]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc37
+X1, Y1, X2, Y2: 795,254,938,216
+Type: Inhibitor
+Multiplicity: 1
+Src: P6
+Dest: t10
+ArcPoints: [java.awt.Point[x=795,y=254], java.awt.Point[x=938,y=216]]
+Fluid Arc: false
+Choice Input: Constant
+Circle1, Circle2: 934,217
+
+Arc:
+Name: arc38
+X1, Y1, X2, Y2: 793,68,938,213
+Type: Regular
+Multiplicity: 1
+Src: P5
+Dest: t10
+ArcPoints: [java.awt.Point[x=793,y=68], java.awt.Point[x=938,y=213]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc39
+X1, Y1, X2, Y2: 784,244,893,25
+Type: Regular
+Multiplicity: 1
+Src: P6
+Dest: T4
+ArcPoints: [java.awt.Point[x=784,y=244], java.awt.Point[x=893,y=25]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc40
+X1, Y1, X2, Y2: 893,23,795,57
+Type: Regular
+Multiplicity: 1
+Src: T4
+Dest: P5
+ArcPoints: [java.awt.Point[x=893,y=23], java.awt.Point[x=795,y=57]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc41
+X1, Y1, X2, Y2: 764,59,587,23
+Type: Regular
+Multiplicity: 1
+Src: P5
+Dest: T3
+ArcPoints: [java.awt.Point[x=764,y=59], java.awt.Point[x=587,y=23]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc42
+X1, Y1, X2, Y2: 587,23,772,246
+Type: Regular
+Multiplicity: 1
+Src: T3
+Dest: P6
+ArcPoints: [java.awt.Point[x=587,y=23], java.awt.Point[x=772,y=246]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc43
+X1, Y1, X2, Y2: 1173,62,795,62
+Type: Regular
+Multiplicity: 1
+Src: T5
+Dest: P5
+ArcPoints: [java.awt.Point[x=1173,y=62], java.awt.Point[x=795,y=62]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc44
+X1, Y1, X2, Y2: 792,250,1173,58
+Type: Regular
+Multiplicity: 1
+Src: P6
+Dest: T5
+ArcPoints: [java.awt.Point[x=792,y=250], java.awt.Point[x=1173,y=58]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc45
+X1, Y1, X2, Y2: 1060,564,1173,74
+Type: Regular
+Multiplicity: 1
+Src: P11
+Dest: T5
+ArcPoints: [java.awt.Point[x=1060,y=564], java.awt.Point[x=1173,y=74]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc46
+X1, Y1, X2, Y2: 1178,76,1065,685
+Type: Regular
+Multiplicity: 1
+Src: T5
+Dest: P12
+ArcPoints: [java.awt.Point[x=1178,y=76], java.awt.Point[x=1065,y=685]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc47
+X1, Y1, X2, Y2: 1373,183,795,260
+Type: Regular
+Multiplicity: 1
+Src: T6
+Dest: P6
+ArcPoints: [java.awt.Point[x=1373,y=183], java.awt.Point[x=795,y=260]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc48
+X1, Y1, X2, Y2: 795,60,1373,174
+Type: Regular
+Multiplicity: 1
+Src: P5
+Dest: T6
+ArcPoints: [java.awt.Point[x=795,y=60], java.awt.Point[x=1373,y=174]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc49
+X1, Y1, X2, Y2: 1373,190,1072,569
+Type: Regular
+Multiplicity: 1
+Src: T6
+Dest: P11
+ArcPoints: [java.awt.Point[x=1373,y=190], java.awt.Point[x=1072,y=569]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc50
+X1, Y1, X2, Y2: 1065,685,1373,183
+Type: Regular
+Multiplicity: 1
+Src: P12
+Dest: T6
+ArcPoints: [java.awt.Point[x=1065,y=685], java.awt.Point[x=1373,y=183]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Arc:
+Name: arc51
+X1, Y1, X2, Y2: 858,342,788,273
+Type: Regular
+Multiplicity: 1
+Src: t7
+Dest: P6
+ArcPoints: [java.awt.Point[x=858,y=342], java.awt.Point[x=788,y=273]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: output
+
+Arc:
+Name: arc52
+X1, Y1, X2, Y2: 793,268,858,333
+Type: Inhibitor
+Multiplicity: 1
+Src: P6
+Dest: t7
+ArcPoints: [java.awt.Point[x=793,y=268], java.awt.Point[x=858,y=333]]
+Fluid Arc: false
+Choice Input: Constant
+Circle1, Circle2: 855,330
+
+Arc:
+Name: arc53
+X1, Y1, X2, Y2: 787,74,858,327
+Type: Regular
+Multiplicity: 1
+Src: P5
+Dest: t7
+ArcPoints: [java.awt.Point[x=787,y=74], java.awt.Point[x=858,y=327]]
+Fluid Arc: false
+Choice Input: Constant
+TypeIO: input
+
+Function: Ac_init
+Kind: spnp
+Type: void
+Body: /* Information on the net structure */ 
+pr_net_info();
+
+End of Body.
+Function: Assert
+Kind: spnp
+Type: int
+Body: 
+End of Body.
+Function: Ac_reach
+Kind: spnp
+Type: void
+Body: /* Information on the reachability graph */ 
+pr_rg_info();
+
+End of Body.
+Function: Ac_final
+Kind: spnp
+Type: void
+Body: 
+End of Body.

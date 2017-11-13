@@ -1,0 +1,306 @@
+Processing ac_init()
+Processing ac_final()
+Constructing reachability graph...
+The reachability graph contains:
+          40 tangible markings (0 absorbing)
+           0 vanishing markings
+           0 vanloops
+         186 arcs
+Processing ac_reach()
+Constructing Markov chain...
+After the elimination of redundant arcs:
+           0 self-arcs were eliminated
+           0 double-arcs were compacted
+           0 arcs were added from absorbing markings to M0
+         186 arcs remain
+...Markov chain constructed
+Solving the Markov chain...
+iterations: 	40  
+
+max error:  	1.704622e-012  
+
+final omega:	1.197000  
+
+SOR operations: 7440
+
+...Markov chain solved
+Constructing reachability graph...
+The reachability graph contains:
+          40 tangible markings (0 absorbing)
+           0 vanishing markings
+           0 vanloops
+         186 arcs
+Processing ac_reach()
+Constructing Markov chain...
+After the elimination of redundant arcs:
+           0 self-arcs were eliminated
+           0 double-arcs were compacted
+           0 arcs were added from absorbing markings to M0
+         186 arcs remain
+...Markov chain constructed
+Solving the Markov chain...
+iterations: 	40  
+
+max error:  	6.542180e-012  
+
+final omega:	1.197000  
+
+SOR operations: 7440
+
+...Markov chain solved
+Constructing reachability graph...
+The reachability graph contains:
+          40 tangible markings (0 absorbing)
+           0 vanishing markings
+           0 vanloops
+         186 arcs
+Processing ac_reach()
+Constructing Markov chain...
+After the elimination of redundant arcs:
+           0 self-arcs were eliminated
+           0 double-arcs were compacted
+           0 arcs were added from absorbing markings to M0
+         186 arcs remain
+...Markov chain constructed
+Solving the Markov chain...
+iterations: 	40  
+
+max error:  	6.600367e-012  
+
+final omega:	1.197000  
+
+SOR operations: 7440
+
+...Markov chain solved
+Constructing reachability graph...
+The reachability graph contains:
+          40 tangible markings (0 absorbing)
+           0 vanishing markings
+           0 vanloops
+         186 arcs
+Processing ac_reach()
+Constructing Markov chain...
+After the elimination of redundant arcs:
+           0 self-arcs were eliminated
+           0 double-arcs were compacted
+           0 arcs were added from absorbing markings to M0
+         186 arcs remain
+...Markov chain constructed
+Solving the Markov chain...
+iterations: 	40  
+
+max error:  	6.603306e-012  
+
+final omega:	1.197000  
+
+SOR operations: 7440
+
+...Markov chain solved
+Constructing reachability graph...
+The reachability graph contains:
+          40 tangible markings (0 absorbing)
+           0 vanishing markings
+           0 vanloops
+         186 arcs
+Processing ac_reach()
+Constructing Markov chain...
+After the elimination of redundant arcs:
+           0 self-arcs were eliminated
+           0 double-arcs were compacted
+           0 arcs were added from absorbing markings to M0
+         186 arcs remain
+...Markov chain constructed
+Solving the Markov chain...
+iterations: 	40  
+
+max error:  	6.604232e-012  
+
+final omega:	1.197000  
+
+SOR operations: 7440
+
+...Markov chain solved
+Constructing reachability graph...
+The reachability graph contains:
+          40 tangible markings (0 absorbing)
+           0 vanishing markings
+           0 vanloops
+         186 arcs
+Processing ac_reach()
+Constructing Markov chain...
+After the elimination of redundant arcs:
+           0 self-arcs were eliminated
+           0 double-arcs were compacted
+           0 arcs were added from absorbing markings to M0
+         186 arcs remain
+...Markov chain constructed
+Solving the Markov chain...
+iterations: 	40  
+
+max error:  	6.603205e-012  
+
+final omega:	1.197000  
+
+SOR operations: 7440
+
+...Markov chain solved
+Constructing reachability graph...
+The reachability graph contains:
+          40 tangible markings (0 absorbing)
+           0 vanishing markings
+           0 vanloops
+         186 arcs
+Processing ac_reach()
+Constructing Markov chain...
+After the elimination of redundant arcs:
+           0 self-arcs were eliminated
+           0 double-arcs were compacted
+           0 arcs were added from absorbing markings to M0
+         186 arcs remain
+...Markov chain constructed
+Solving the Markov chain...
+iterations: 	40  
+
+max error:  	6.602821e-012  
+
+final omega:	1.197000  
+
+SOR operations: 7440
+
+...Markov chain solved
+Constructing reachability graph...
+The reachability graph contains:
+          40 tangible markings (0 absorbing)
+           0 vanishing markings
+           0 vanloops
+         186 arcs
+Processing ac_reach()
+Constructing Markov chain...
+After the elimination of redundant arcs:
+           0 self-arcs were eliminated
+           0 double-arcs were compacted
+           0 arcs were added from absorbing markings to M0
+         186 arcs remain
+...Markov chain constructed
+Solving the Markov chain...
+iterations: 	40  
+
+max error:  	6.603972e-012  
+
+final omega:	1.197000  
+
+SOR operations: 7440
+
+...Markov chain solved
+Solving the Markov chain...
+...Markov chain solved
+Solving the Markov chain...
+Uniformization: 
+	rate of Poisson process: 9.259091
+	LTP: 0
+	RTP: 152
+
+Cumulative Uniformization: 
+	rate of Poisson process: 9.259091
+	LTP: 1
+	RTP: 28
+
+...Markov chain solved
+Solving the Markov chain...
+Uniformization: 
+	rate of Poisson process: 9.259091
+	LTP: 0
+	RTP: 161
+
+Cumulative Uniformization: 
+	rate of Poisson process: 9.259091
+	LTP: 1
+	RTP: 44
+
+...Markov chain solved
+Solving the Markov chain...
+Uniformization: 
+	rate of Poisson process: 9.259091
+	LTP: 0
+	RTP: 170
+
+Cumulative Uniformization: 
+	rate of Poisson process: 9.259091
+	LTP: 1
+	RTP: 59
+
+...Markov chain solved
+Solving the Markov chain...
+Uniformization: 
+	rate of Poisson process: 9.259091
+	LTP: 5
+	RTP: 180
+
+Cumulative Uniformization: 
+	rate of Poisson process: 9.259091
+	LTP: 1
+	RTP: 72
+
+...Markov chain solved
+Solving the Markov chain...
+Uniformization: 
+	rate of Poisson process: 9.259091
+	LTP: 10
+	RTP: 189
+
+Cumulative Uniformization: 
+	rate of Poisson process: 9.259091
+	LTP: 1
+	RTP: 86
+
+...Markov chain solved
+Solving the Markov chain...
+Uniformization: 
+	rate of Poisson process: 9.259091
+	LTP: 16
+	RTP: 198
+
+Cumulative Uniformization: 
+	rate of Poisson process: 9.259091
+	LTP: 1
+	RTP: 99
+
+...Markov chain solved
+Solving the Markov chain...
+Uniformization: 
+	rate of Poisson process: 9.259091
+	LTP: 22
+	RTP: 207
+
+Cumulative Uniformization: 
+	rate of Poisson process: 9.259091
+	LTP: 1
+	RTP: 111
+
+...Markov chain solved
+Solving the Markov chain...
+Uniformization: 
+	rate of Poisson process: 9.259091
+	LTP: 29
+	RTP: 217
+
+Cumulative Uniformization: 
+	rate of Poisson process: 9.259091
+	LTP: 1
+	RTP: 124
+
+...Markov chain solved
+Solving the Markov chain...
+Uniformization: 
+	rate of Poisson process: 9.259091
+	LTP: 35
+	RTP: 226
+
+Cumulative Uniformization: 
+	rate of Poisson process: 9.259091
+	LTP: 1
+	RTP: 136
+
+...Markov chain solved
+End of execution.
+

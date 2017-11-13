@@ -1,0 +1,411 @@
+
+NET:
+==========================================================================
+	discrete places: 13
+	immediate transitions: 18
+	timed transitions: 7
+	constant input arcs: 31
+	constant output arcs: 22
+	constant inhibitor arcs: 3
+	variable input arcs: 0
+	variable output arcs: 0
+	variable inhibitor arcs: 0
+==========================================================================
+
+VALUE: lh = 0.01
+
+VALUE: lv1 = 0.01
+
+VALUE: lv2 = 0.01
+
+RG:
+==========================================================================
+	tangible markings: 40
+	vanishing markings: 0
+	marking-to-marking transitions: 186
+==========================================================================
+==========================================================================
+
+                         TIME :   INFINITY
+
+==========================================================================
+
+VALUE: Hho = 0.0894782937559
+
+VALUE: vh2 = 0.000222570664514
+
+VALUE: vh1 = 0.0489831511715
+
+VALUE: Error = 43.9295508993
+
+VALUE: lh = 0.0894782937559
+
+VALUE: lv1 = 0.0489831511715
+
+VALUE: lv2 = 0.000222570664514
+
+RG:
+==========================================================================
+	tangible markings: 40
+	vanishing markings: 0
+	marking-to-marking transitions: 186
+==========================================================================
+==========================================================================
+
+                         TIME :   INFINITY
+
+==========================================================================
+
+VALUE: Hho = 0.0892107829265
+
+VALUE: vh2 = 0.000248559431255
+
+VALUE: vh1 = 0.105798058007
+
+VALUE: Error = 0.53701275719
+
+VALUE: lh = 0.0892107829265
+
+VALUE: lv1 = 0.105798058007
+
+VALUE: lv2 = 0.000248559431255
+
+RG:
+==========================================================================
+	tangible markings: 40
+	vanishing markings: 0
+	marking-to-marking transitions: 186
+==========================================================================
+==========================================================================
+
+                         TIME :   INFINITY
+
+==========================================================================
+
+VALUE: Hho = 0.0892349242789
+
+VALUE: vh2 = 0.000286436034818
+
+VALUE: vh1 = 0.105617010415
+
+VALUE: Error = 0.132234073087
+
+VALUE: lh = 0.0892349242789
+
+VALUE: lv1 = 0.105617010415
+
+VALUE: lv2 = 0.000286436034818
+
+RG:
+==========================================================================
+	tangible markings: 40
+	vanishing markings: 0
+	marking-to-marking transitions: 186
+==========================================================================
+==========================================================================
+
+                         TIME :   INFINITY
+
+==========================================================================
+
+VALUE: Hho = 0.0892346720877
+
+VALUE: vh2 = 0.000286315336427
+
+VALUE: vh1 = 0.105667546252
+
+VALUE: Error = 0.000478253150548
+
+VALUE: lh = 0.0892346720877
+
+VALUE: lv1 = 0.105667546252
+
+VALUE: lv2 = 0.000286315336427
+
+RG:
+==========================================================================
+	tangible markings: 40
+	vanishing markings: 0
+	marking-to-marking transitions: 186
+==========================================================================
+==========================================================================
+
+                         TIME :   INFINITY
+
+==========================================================================
+
+VALUE: Hho = 0.0892346929247
+
+VALUE: vh2 = 0.000286349026984
+
+VALUE: vh1 = 0.105667255548
+
+VALUE: Error = 0.000117655566462
+
+VALUE: lh = 0.0892346929247
+
+VALUE: lv1 = 0.105667255548
+
+VALUE: lv2 = 0.000286349026984
+
+RG:
+==========================================================================
+	tangible markings: 40
+	vanishing markings: 0
+	marking-to-marking transitions: 186
+==========================================================================
+==========================================================================
+
+                         TIME :   INFINITY
+
+==========================================================================
+
+VALUE: Hho = 0.0892346926532
+
+VALUE: vh2 = 0.000286348833181
+
+VALUE: vh1 = 0.105667299946
+
+VALUE: Error = 6.76806529555e-007
+
+VALUE: lh = 0.0892346926532
+
+VALUE: lv1 = 0.105667299946
+
+VALUE: lv2 = 0.000286348833181
+
+RG:
+==========================================================================
+	tangible markings: 40
+	vanishing markings: 0
+	marking-to-marking transitions: 186
+==========================================================================
+==========================================================================
+
+                         TIME :   INFINITY
+
+==========================================================================
+
+VALUE: Hho = 0.0892346926719
+
+VALUE: vh2 = 0.00028634886278
+
+VALUE: vh1 = 0.105667299578
+
+VALUE: Error = 1.03366457566e-007
+
+VALUE: lh = 0.0892346926719
+
+VALUE: lv1 = 0.105667299578
+
+VALUE: lv2 = 0.00028634886278
+
+RG:
+==========================================================================
+	tangible markings: 40
+	vanishing markings: 0
+	marking-to-marking transitions: 186
+==========================================================================
+==========================================================================
+
+                         TIME :   INFINITY
+
+==========================================================================
+
+VALUE: Hho = 0.0892346926716
+
+VALUE: vh2 = 0.000286348862534
+
+VALUE: vh1 = 0.105667299618
+
+VALUE: Error = 8.56100189118e-010
+
+VALUE: VHO = 0.10595364848
+EXPECTED: BN = 0.00717627762333
+EXPECTED: BH = 0.00016444966005
+EXPECTED: thu = 9.82105576759
+
+VALUE: cost = 2.2100457125
+EXPECTED: BNH = 1.34491139191e-008
+EXPECTED: LC = 0.0412082875464
+EXPECTED: LW = 0.0657097190735
+==========================================================================
+
+                         TIME :   0.000000000000
+
+==========================================================================
+EXPECTED: Expected # of tokens of the place P1 = 0
+EXPECTED: Expected # of tokens of the place P4 = 0
+EXPECTED: Expected # of tokens of the place P5 = 0
+EXPECTED: Expected # of tokens of the place P8 = 0
+EXPECTED: Expected # of tokens of the place P9 = 0
+EXPECTED: Expected # of tokens of the place P10 = 0
+EXPECTED: Expected # of tokens of the place P11 = 0
+EXPECTED: Expected # of tokens of the place P12 = 0
+EXPECTED: Expected # of tokens of the place P13 = 0
+EXPECTED: Expected # of tokens of the place resource_cdma = 3
+EXPECTED: Expected # of tokens of the place resource_ieee = 9
+EXPECTED: Expected # of tokens of the place user_cdma = 0
+EXPECTED: Expected # of tokens of the place user_ieee = 0
+==========================================================================
+
+                         TIME :   1.000000000000
+
+==========================================================================
+EXPECTED: Expected # of tokens of the place P1 = 0
+EXPECTED: Expected # of tokens of the place P4 = 0
+EXPECTED: Expected # of tokens of the place P5 = 0
+EXPECTED: Expected # of tokens of the place P8 = 0
+EXPECTED: Expected # of tokens of the place P9 = 0
+EXPECTED: Expected # of tokens of the place P10 = 0
+EXPECTED: Expected # of tokens of the place P11 = 0
+EXPECTED: Expected # of tokens of the place P12 = 0
+EXPECTED: Expected # of tokens of the place P13 = 0
+EXPECTED: Expected # of tokens of the place resource_cdma = 2.90885667777
+EXPECTED: Expected # of tokens of the place resource_ieee = 8.74833496537
+EXPECTED: Expected # of tokens of the place user_cdma = 0.0911433222281
+EXPECTED: Expected # of tokens of the place user_ieee = 0.251665034634
+==========================================================================
+
+                         TIME :   2.000000000000
+
+==========================================================================
+EXPECTED: Expected # of tokens of the place P1 = 0
+EXPECTED: Expected # of tokens of the place P4 = 0
+EXPECTED: Expected # of tokens of the place P5 = 0
+EXPECTED: Expected # of tokens of the place P8 = 0
+EXPECTED: Expected # of tokens of the place P9 = 0
+EXPECTED: Expected # of tokens of the place P10 = 0
+EXPECTED: Expected # of tokens of the place P11 = 0
+EXPECTED: Expected # of tokens of the place P12 = 0
+EXPECTED: Expected # of tokens of the place P13 = 0
+EXPECTED: Expected # of tokens of the place resource_cdma = 2.88492693549
+EXPECTED: Expected # of tokens of the place resource_ieee = 8.60226120288
+EXPECTED: Expected # of tokens of the place user_cdma = 0.115073064506
+EXPECTED: Expected # of tokens of the place user_ieee = 0.397738797122
+==========================================================================
+
+                         TIME :   3.000000000000
+
+==========================================================================
+EXPECTED: Expected # of tokens of the place P1 = 0
+EXPECTED: Expected # of tokens of the place P4 = 0
+EXPECTED: Expected # of tokens of the place P5 = 0
+EXPECTED: Expected # of tokens of the place P8 = 0
+EXPECTED: Expected # of tokens of the place P9 = 0
+EXPECTED: Expected # of tokens of the place P10 = 0
+EXPECTED: Expected # of tokens of the place P11 = 0
+EXPECTED: Expected # of tokens of the place P12 = 0
+EXPECTED: Expected # of tokens of the place P13 = 0
+EXPECTED: Expected # of tokens of the place resource_cdma = 2.87863369578
+EXPECTED: Expected # of tokens of the place resource_ieee = 8.51862370864
+EXPECTED: Expected # of tokens of the place user_cdma = 0.121366304215
+EXPECTED: Expected # of tokens of the place user_ieee = 0.481376291357
+==========================================================================
+
+                         TIME :   4.000000000000
+
+==========================================================================
+EXPECTED: Expected # of tokens of the place P1 = 0
+EXPECTED: Expected # of tokens of the place P4 = 0
+EXPECTED: Expected # of tokens of the place P5 = 0
+EXPECTED: Expected # of tokens of the place P8 = 0
+EXPECTED: Expected # of tokens of the place P9 = 0
+EXPECTED: Expected # of tokens of the place P10 = 0
+EXPECTED: Expected # of tokens of the place P11 = 0
+EXPECTED: Expected # of tokens of the place P12 = 0
+EXPECTED: Expected # of tokens of the place P13 = 0
+EXPECTED: Expected # of tokens of the place resource_cdma = 2.8769753875
+EXPECTED: Expected # of tokens of the place resource_ieee = 8.47101343935
+EXPECTED: Expected # of tokens of the place user_cdma = 0.123024612499
+EXPECTED: Expected # of tokens of the place user_ieee = 0.528986560653
+==========================================================================
+
+                         TIME :   5.000000000000
+
+==========================================================================
+EXPECTED: Expected # of tokens of the place P1 = 0
+EXPECTED: Expected # of tokens of the place P4 = 0
+EXPECTED: Expected # of tokens of the place P5 = 0
+EXPECTED: Expected # of tokens of the place P8 = 0
+EXPECTED: Expected # of tokens of the place P9 = 0
+EXPECTED: Expected # of tokens of the place P10 = 0
+EXPECTED: Expected # of tokens of the place P11 = 0
+EXPECTED: Expected # of tokens of the place P12 = 0
+EXPECTED: Expected # of tokens of the place P13 = 0
+EXPECTED: Expected # of tokens of the place resource_cdma = 2.87653675761
+EXPECTED: Expected # of tokens of the place resource_ieee = 8.44398270461
+EXPECTED: Expected # of tokens of the place user_cdma = 0.123463242387
+EXPECTED: Expected # of tokens of the place user_ieee = 0.55601729539
+==========================================================================
+
+                         TIME :   6.000000000000
+
+==========================================================================
+EXPECTED: Expected # of tokens of the place P1 = 0
+EXPECTED: Expected # of tokens of the place P4 = 0
+EXPECTED: Expected # of tokens of the place P5 = 0
+EXPECTED: Expected # of tokens of the place P8 = 0
+EXPECTED: Expected # of tokens of the place P9 = 0
+EXPECTED: Expected # of tokens of the place P10 = 0
+EXPECTED: Expected # of tokens of the place P11 = 0
+EXPECTED: Expected # of tokens of the place P12 = 0
+EXPECTED: Expected # of tokens of the place P13 = 0
+EXPECTED: Expected # of tokens of the place resource_cdma = 2.87641982203
+EXPECTED: Expected # of tokens of the place resource_ieee = 8.42865453482
+EXPECTED: Expected # of tokens of the place user_cdma = 0.123580177969
+EXPECTED: Expected # of tokens of the place user_ieee = 0.571345465176
+==========================================================================
+
+                         TIME :   7.000000000000
+
+==========================================================================
+EXPECTED: Expected # of tokens of the place P1 = 0
+EXPECTED: Expected # of tokens of the place P4 = 0
+EXPECTED: Expected # of tokens of the place P5 = 0
+EXPECTED: Expected # of tokens of the place P8 = 0
+EXPECTED: Expected # of tokens of the place P9 = 0
+EXPECTED: Expected # of tokens of the place P10 = 0
+EXPECTED: Expected # of tokens of the place P11 = 0
+EXPECTED: Expected # of tokens of the place P12 = 0
+EXPECTED: Expected # of tokens of the place P13 = 0
+EXPECTED: Expected # of tokens of the place resource_cdma = 2.87638813581
+EXPECTED: Expected # of tokens of the place resource_ieee = 8.4199673232
+EXPECTED: Expected # of tokens of the place user_cdma = 0.123611864192
+EXPECTED: Expected # of tokens of the place user_ieee = 0.580032676803
+==========================================================================
+
+                         TIME :   8.000000000000
+
+==========================================================================
+EXPECTED: Expected # of tokens of the place P1 = 0
+EXPECTED: Expected # of tokens of the place P4 = 0
+EXPECTED: Expected # of tokens of the place P5 = 0
+EXPECTED: Expected # of tokens of the place P8 = 0
+EXPECTED: Expected # of tokens of the place P9 = 0
+EXPECTED: Expected # of tokens of the place P10 = 0
+EXPECTED: Expected # of tokens of the place P11 = 0
+EXPECTED: Expected # of tokens of the place P12 = 0
+EXPECTED: Expected # of tokens of the place P13 = 0
+EXPECTED: Expected # of tokens of the place resource_cdma = 2.87637926481
+EXPECTED: Expected # of tokens of the place resource_ieee = 8.41504513324
+EXPECTED: Expected # of tokens of the place user_cdma = 0.123620735188
+EXPECTED: Expected # of tokens of the place user_ieee = 0.584954866762
+==========================================================================
+
+                         TIME :   9.000000000000
+
+==========================================================================
+EXPECTED: Expected # of tokens of the place P1 = 0
+EXPECTED: Expected # of tokens of the place P4 = 0
+EXPECTED: Expected # of tokens of the place P5 = 0
+EXPECTED: Expected # of tokens of the place P8 = 0
+EXPECTED: Expected # of tokens of the place P9 = 0
+EXPECTED: Expected # of tokens of the place P10 = 0
+EXPECTED: Expected # of tokens of the place P11 = 0
+EXPECTED: Expected # of tokens of the place P12 = 0
+EXPECTED: Expected # of tokens of the place P13 = 0
+EXPECTED: Expected # of tokens of the place resource_cdma = 2.87637662504
+EXPECTED: Expected # of tokens of the place resource_ieee = 8.41225654487
+EXPECTED: Expected # of tokens of the place user_cdma = 0.123623374959
+EXPECTED: Expected # of tokens of the place user_ieee = 0.587743455128
